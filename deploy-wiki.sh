@@ -23,7 +23,7 @@ show_help() {
   echo "  <git_repo>        Path to the Git repository for the wiki."
   echo
   echo "Example:"
-  echo "  $0 /path/to/wiki/files /path/to/wiki/repo"
+  echo "  $0 /home/tym/Wiki/content /home/tym/Projects/digital-garden/content"
 }
 
 # Check if arguments 1 and 2 are provided
