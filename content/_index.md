@@ -15,8 +15,6 @@ Welcome to my personal developer wiki. Learning is chaotic — this is my attemp
 ---
 
 ## Software Engineering
-*Software engineering* is the set of theory and practices around making computers do what you want it to do. Below is a list of notes written in my exploration of software technologies and concepts.
-
 ### Programming Languages
 - [[Knowledge/Engineering/Languages/C++|C++]]
 - [[Knowledge/Engineering/Languages/TypeScript|TypeScript]]
@@ -50,3 +48,5 @@ Welcome to my personal developer wiki. Learning is chaotic — this is my attemp
 	- [[Knowledge/Engineering/Architecture/Monolith|Monoliths]]
 - **Operating systems**
 	- [[Knowledge/Engineering/Operating Systems/User Space and Kernel Space|Userland & Kernel Space]]
+
+---
