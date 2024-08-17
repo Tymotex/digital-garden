@@ -29,7 +29,6 @@ show_help() {
 # Check if arguments 1 and 2 are provided
 if [ -z "$1" ] || [ -z "$2" ]; then
   echo "Error: Two directory paths must be provided."
-  echo "Usage: $0 <directory1> <directory2>"
   show_help
   exit 1
 fi
