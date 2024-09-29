@@ -15,8 +15,10 @@ export default (() => {
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
-    const iconPath = joinSegments(baseDir, "static/icon.png")
-    const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
+    const iconPath =
+      "https://raw.githubusercontent.com/Tymotex/digital-garden/refs/heads/v4/public/static/icon.png"
+    const ogImagePath =
+      "https://raw.githubusercontent.com/Tymotex/digital-garden/refs/heads/v4/public/static/og-image.png"
 
     return (
       <head>
